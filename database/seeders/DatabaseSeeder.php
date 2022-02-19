@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Reply;
+use App\Models\Thread;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +16,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+//         User::factory()->count(10)->create();
+//         Thread::factory()->count(50)->create();
+//         Reply::factory()->count(100)->create();
     }
 }
